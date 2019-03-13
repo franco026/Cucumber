@@ -12,7 +12,7 @@ Given('yo entro a la pagina',function() {
     ruta = 'https://restcountries.eu';
 });
 
-When('I make an API call using promise',function() {
+When('Hago una llamada a la API usando una promesa',function() {
     fetch(ruta+'/rest/v2/name/colombia')
         .then(function(response) {
             return response.json();
@@ -23,7 +23,7 @@ When('I make an API call using promise',function() {
         });
 });
 
-Then('I mostrarme {string}',function (input){
+Then('Me tiene que mostrar la region {string}',function (input){
    fetch(ruta+'/rest/v2/name/colombia')
         .then(function(response) {
             return response.json();
