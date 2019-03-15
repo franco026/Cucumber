@@ -1,5 +1,5 @@
 # ORM
-Para realizar los pasos del crud del taller se abrira postman
+Para realizar los pasos del crud del taller se abrira postman.
 
 Luego de abrirlo lo primero que se hara sera mostrar los datos de la base de datos
 1. se seleccionara la opcion get(por defecto siempre aparecer seleccionada al abrir postman)
